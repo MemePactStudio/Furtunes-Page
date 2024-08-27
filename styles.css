@@ -1,0 +1,189 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    overflow: hidden;
+    background: #000;
+}
+
+.fortune-app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+}
+
+.background-gif img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+}
+
+.fortune-teller {
+    z-index: 2;
+    margin-top: 10%;
+    text-align: center;
+    color: rgb(26, 233, 7);
+}
+
+#fortuneResult {
+    margin-top: 50px;
+    font-size: 3.2em;
+    font-weight: bold;
+    cursor: progress;
+    color: #45045f;
+    border-image-width: 2dvh;
+
+}
+
+button {
+    background-color: #FFD700;
+    border: none;
+    padding: 10px 20px;
+    cursor: url(cursor.cur), auto;
+    font-size: 1em;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.module {
+    cursor: progress;
+}
+.coin-chart {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 20px;
+    color:rgb(255, 255, 255);
+    font-size: larger;
+    width: 100%;
+    height: 10%;
+    object-fit: cover;
+    z-index: 1;
+
+}
+.roadmap-table {
+    border-collapse: collapse;
+    width: 100%;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+  }
+  
+  .roadmap-header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .roadmap-quarter {
+    background-color: #f0f0f0;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .roadmap-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .roadmap-list li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .roadmap-list li:last-child {
+    border-bottom: none;
+  }
+  
+  .roadmap-list li:before {
+    content: "\2022";
+    font-size: 18px;
+    color: #666;
+    margin-right: 10px;
+  }
+  .tokenomics {
+    background-color: #f7f7f7;
+    padding: 40px 0;
+  }
+  
+  .tokenomics__container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .tokenomics__banner {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .tokenomics__title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .tokenomics__table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .tokenomics__table th, .tokenomics__table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .tokenomics__table th {
+    background-color: #f0f0f0;
+  }
+  
+  .tokenomics__table td {
+    background-color: #fff;
+  }
+  
+  .tokenomics__token {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+  }
+  
+  .token__code {
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .token__copy {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .token__copy:hover {
+    background-color: #444;
+  }
+  
+  .tokenomics__total {
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 10px;
+  }
