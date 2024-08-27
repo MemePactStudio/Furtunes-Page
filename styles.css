@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    overflow: hidden;
+    background: #000;
+}
+
+.fortune-app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+}
+
+.background-gif img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+}
+
+.fortune-teller {
+    z-index: 2;
+    margin-top: 10%;
+    text-align: center;
+    color: rgb(26, 233, 7);
+}
+
+#fortuneResult {
+    margin-top: 50px;
+    font-size: 3.2em;
+    font-weight: bold;
+    cursor: progress;
+    color: #45045f;
+    border-image-width: 2dvh;
+
+}
+
+button {
+    background-color: #FFD700;
+    border: none;
+    padding: 10px 20px;
+    cursor: url(cursor.cur), auto;
+    font-size: 1em;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.module {
+    cursor: progress;
+}
+.coin-chart {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 20px;
+    color:rgb(255, 255, 255);
+    font-size: larger;
+    width: 100%;
+    height: 10%;
+    object-fit: cover;
+    z-index: 1;
+
+}
