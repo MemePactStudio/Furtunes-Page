@@ -43,3 +43,21 @@ document.getElementById('getFortune').addEventListener('click', function() {
     const randomFortune = fortuneMessages[Math.floor(Math.random() * fortuneMessages.length)];
     document.getElementById('fortuneResult').textContent = `${userName}, ${randomFortune}`;
 });
+<script src="three.r134.min.js"></script>
+<script src="vanta.birds.min.js"></script>
+<script>
+VANTA.BIRDS({
+  el: "#your-element-selector",
+  mouseControls: true,
+  touchControls: true,
+  gyroControls: false,
+  minHeight: 200.00,
+  minWidth: 200.00,
+  scale: 1.00,
+  scaleMobile: 1.00,
+  color1: 0xca145d,
+  color2: 0x3cff,
+  cohesion: 59.00,
+  backgroundAlpha: 0.82
+})
+</script>
